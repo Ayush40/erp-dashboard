@@ -20,21 +20,20 @@ Add link here if deployed.
 ## 📸 Screenshots
 
 ### 🔐 Login Page
-![Login](public/1.png)
+![Login](frontend/public/1.png)
 
 ### 📊 Dashboard Overview
-![Dashboard](public/dashboard.png)
+![Dashboard](frontendpublic/2.png)
 
 ### 📈 Sales Chart
-![Chart](public/2.png)
+![Chart](frontend/public/3.png)
 
 ### 📋 Transactions Table
-![Table](public/3.png)
-![Table](public/4.png)
-![Table](public/5.png)
-![Table](public/6.png)
-![Table](public/7.png)
-![Table](public/8.png)
+![Table](frontend/public/4.png)
+![Table](frontend/public/5.png)
+![Table](frontend/public/6.png)
+![Table](frontend/public/7.png)
+![Table](frontend/public/8.png)
 
 ---
 

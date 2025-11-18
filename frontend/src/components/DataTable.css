@@ -1,0 +1,126 @@
+/* 📌 WRAPPER FOR TABLE + CONTROLS */
+.data-table-container {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.10);
+  border: 1px solid #cfd6eb;
+  margin-top: 20px;
+}
+
+/* 📌 SEARCH + FILTER BAR */
+.table-controls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 18px;
+}
+
+.table-controls input,
+.table-controls select {
+  padding: 10px 14px;
+  border: 1px solid #c2c9df;
+  background: white;
+  border-radius: 10px;
+  font-size: 15px;
+  outline: none;
+  transition: all 0.2s ease;
+}
+
+.table-controls input:focus,
+.table-controls select:focus {
+  border-color: #4f8cf3;
+  box-shadow: 0 0 6px rgba(79,140,243,0.35);
+}
+
+/* 📌 TABLE STYLING */
+.data-table table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 14px;
+  overflow: hidden;
+  border: 1px solid #d6d9e5;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+}
+
+/* HEADER */
+.data-table th {
+  background: linear-gradient(90deg, #4f8cf3, #5ca1ff);
+  color: white;
+  padding: 14px;
+  font-size: 15px;
+  text-align: left;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+}
+
+/* ROWS */
+.data-table td {
+  padding: 12px 14px;
+  font-size: 15px;
+  color: #2c3e50;
+  border-bottom: 1px solid #e3e6f3;
+}
+
+/* ZEBRA ROWS */
+.data-table tr:nth-child(odd) {
+  background: #f8faff;
+}
+
+.data-table tr:nth-child(even) {
+  background: #ffffff;
+}
+
+/* ROW HOVER */
+.data-table tr:hover {
+  background: #e9f1ff;
+  transition: 0.2s ease;
+}
+
+/* ACTION BUTTON CELL */
+.actions-cell {
+  display: flex;
+  gap: 10px;
+}
+
+/* EDIT BUTTON */
+.edit-btn {
+  background: #42b883;
+  color: white;
+  padding: 7px 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+  transition: 0.2s ease;
+}
+
+.edit-btn:hover {
+  background: #36a373;
+}
+
+/* DELETE BUTTON */
+.delete-btn {
+  background: #e63946;
+  color: white;
+  padding: 7px 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+  transition: 0.2s ease;
+}
+
+.delete-btn:hover {
+  background: #cc2e3a;
+}
+
+/* NO RESULT ROW */
+.no-results {
+  text-align: center;
+  padding: 18px;
+  font-size: 16px;
+  color: #666;
+}

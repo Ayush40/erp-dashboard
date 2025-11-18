@@ -23,7 +23,7 @@ Add link here if deployed.
 ![Login](frontend/public/1.png)
 
 ### 📊 Dashboard Overview
-![Dashboard](frontendpublic/2.png)
+![Dashboard](frontend/public/2.png)
 
 ### 📈 Sales Chart
 ![Chart](frontend/public/3.png)
